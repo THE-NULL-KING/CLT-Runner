@@ -3,7 +3,8 @@
 
 
 if (image_index > 3){
-	room_goto(rm_game);	
+	audio_play_sound(snd_music, 1, 1);
+	room_goto(rm_game);
 }
 
 
